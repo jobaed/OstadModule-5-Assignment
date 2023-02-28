@@ -29,6 +29,10 @@ class Person
     {
         return $this->email;
     }
+
+    public function redAll(){
+        echo "Your Name: {$this->name} And Email: {$this->email}";
+    }
 }
 
 
